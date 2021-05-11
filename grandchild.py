@@ -8,7 +8,7 @@ import string
 
 
 def main():
-    # this function runs the better "Number Guessing Game"
+    # this function runs the grandchild dating program
 
     # input
     print("Can you date my grandchild?")
