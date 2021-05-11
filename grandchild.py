@@ -2,11 +2,8 @@
 
 # Created by Jenoe Balote
 # Created on May 2021
-# This program is the better "Number Guessing Game"
+# This program determines if you can date my grandchild
 
-import random
-import string
-random_number = random.randint(0, 9)
 
 
 def main():
@@ -20,15 +17,12 @@ def main():
     print("")
 
     # process and output
-    try:
-        if rich == 1 or attractive == 1:
-            print("Congrats! You may date my grandchild!")
-        elif rich == 2 or attractive == 2:
-            print("Stay away from my grandchild!")
-    except Exception:
+    if rich == 1 or attractive == 1:
+        print("Congrats! You may date my grandchild!")
+    elif rich == 2 or attractive == 2:
+        print("Stay away from my grandchild!")
+    else:
         print("What?")
-    finally:
-        print("Thanks for answering truthfully!")
 
 
 if __name__ == "__main__":
